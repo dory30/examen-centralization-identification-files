@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: EXAMEN-IDENTIFICATION-SERVER
+  config:
+    import: optional:configserver:http://127.0.0.1:8888
+  profiles:
+    active: dev
+
+
